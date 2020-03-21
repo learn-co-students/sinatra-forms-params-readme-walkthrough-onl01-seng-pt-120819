@@ -137,6 +137,7 @@ If you create a text field input with `<input type="text" name="favorite_food">`
 This is because we will be passing our data in the form of a hash, where the key will be the name of the data, and the value will be the data itself. In this case, we want our hash (which we call `params`) to look something like this:
 
 ```ruby
+
 params = {
   :name => "Sam",
   :favorite_food => "Green Eggs and Ham"
